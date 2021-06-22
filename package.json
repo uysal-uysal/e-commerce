@@ -1,6 +1,9 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.16.0"
+  },
   "private": true,
   "dependencies": {
     "@chec/commerce.js": "^2.7.0",
