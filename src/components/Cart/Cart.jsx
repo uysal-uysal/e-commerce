@@ -33,8 +33,8 @@ const Cart = ({ cart, handleEmptyCart, handleRemoveFromCart, handleUpdateCartQty
                     Sepet Toplamı: { cart.subtotal.formatted_with_symbol}
                 </Typography>
                 <div>
-                   <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Sepeti Temizle</Button>
-                    <Button className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Siparişi Tamamla</Button>
+                    <Button className={classes.emptyButton} size="large" type="button" variant="contained" color="secondary" onClick={handleEmptyCart}>Sepeti Temizle</Button>
+                    <Button component={Link} to="/checkout" className={classes.checkoutButton} size="large" type="button" variant="contained" color="primary">Siparişi Tamamla</Button>
                 </div>
             </div>
         </>
